@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("/htmlcss-s01e01-master/images/orange-bg.jpg");
+}
+
+.orange-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding-top: 30px;
+}
+
+.orange-div{
+    background-color: white;
+    padding:50px;
+    border: 10px solid orange ;
+}
+
+.orange-div img{
+    width: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.orange-div p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+    color:orange;
+    text-decoration: underline; text-underline-position:under;
+}

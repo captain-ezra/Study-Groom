@@ -1,0 +1,91 @@
+h1, p{
+    margin: 0;
+}
+
+body{
+    background-image: url(/Study/chapter2/images/background.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(/Study/chapter2/images/halloween-header-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+.header img{
+    padding-top: 30px;
+}
+
+.header h1{
+    color: violet;
+    padding-bottom: 10px;
+}
+
+.header p{
+    background-color: black;
+    width: 430px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.content{
+    background-color: darkgray;
+    padding:10px;
+}
+
+.content-text{ 
+    background-image: url(/Study/chapter2/images/icon-information.png);
+    background-repeat: no-repeat;
+    background-position: 600px center;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin: 10px;
+    width: auto;
+    height: auto;
+}
+
+.content-text h2{
+    color: red;
+    margin: 0;
+    padding: 10px;
+}
+
+.content-text ul{
+    list-style: none;
+    margin:0;
+    padding: 15px;
+}
+
+.content-text li{
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    border-left: 4px solid lightgray;
+
+}
+.content-text li:hover{
+    color:orange;
+    border-color: orange;
+}
+
+.footer{
+    background-color: rgb(26, 26, 26);
+    width: auto;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:violet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
